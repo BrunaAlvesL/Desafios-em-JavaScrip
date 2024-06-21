@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ingressos Promocionais</title>
+    <script src="./index_versao2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="title"> Ingressos Promocionais</h1>
+        <div class="container-select">
+            <label for="categoria">Escolha uma categoria:</label>
+        <select id="categoria" name="categoria" onchange="mostrarResultado()">
+            <option value="selecione">Selecione</option>
+            <option value="idoso">Idoso</option>
+            <option value="estudante">Estudante</option>
+            <option value="casadinha">Casadinha</option>
+            <option value="trio">Trio</option>
+            <option value="outros">Outros</option>
+        </select>
+        </div>
+
+        <p id="resultado">Você escolheu: </p>
+        
+    </section>
+</body>
+
+</html>
