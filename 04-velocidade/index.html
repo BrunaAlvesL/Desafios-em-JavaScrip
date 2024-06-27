@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Velocidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Velocidade</h1>
+        <div>
+            <label for="espaco">Espaço (em metros):</label>
+            <input type="number" id="espaco">
+        </div>
+        <div>
+            <label for="tempo">Tempo (em segundos):</label>
+            <input type="number" id="tempo">
+        </div>
+        <button onclick="calcularVelocidade()">Calcular Velocidade</button>
+        <h2 id="resultado"></h2>
+    </div>
+</body>
+</html>

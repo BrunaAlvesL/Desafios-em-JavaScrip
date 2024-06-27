@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altura</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Insira o nome e altura de 3 pessoas</h1>
+        <div class="container2">
+            <div>
+                <label for="nome1">Nome 1:</label>
+                <input type="text" id="nome1">
+                <label for="altura1">Altura 1 (em cm):</label>
+                <input type="number" id="altura1">
+            </div>
+            <div>
+                <label for="nome2">Nome 2:</label>
+                <input type="text" id="nome2">
+                <label for="altura2">Altura 2 (em cm):</label>
+                <input type="number" id="altura2">
+            </div>
+            <div>
+                <label for="nome3">Nome 3:</label>
+                <input type="text" id="nome3">
+                <label for="altura3">Altura 3 (em cm):</label>
+                <input type="number" id="altura3">
+            </div>
+        </div>
+        <button onclick="mostrarMaisAlto()">Mostrar Quem é Mais Alto</button>
+        <h2 id="resultado"></h2>
+    </div>
+</body>
+</html>
