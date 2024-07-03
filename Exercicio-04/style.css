@@ -1,16 +1,26 @@
+:root {
+    --primary-color:var(17, 86, 102);
+    --primary-color-darker:var(9, 48, 56);
+}
+
+* {
+    box-sizing:  border-box;
+    outline: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 
-form {
-    margin-bottom: 20px;
-}
-
-label {
-    margin-right: 10px;
-}
-
-button {
-    margin-top: 10px;
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
